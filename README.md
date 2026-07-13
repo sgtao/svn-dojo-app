@@ -1,16 +1,26 @@
-# React + Vite
+# svn-dojo-app｜SVN ドリル道場
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+「空間判断(S)」「言語(V)」「数理(N)」の3つの能力を、毎日60秒で鍛える脳トレアプリです。
 
-Currently, two official plugins are available:
+## トレーニング内容
+- **検査S（空間判断）：** 図形の回転一致や、積み木の数を素早く正確に数える訓練です。
+- **検査V（言語）：** 類義語や反対語を瞬時に選び、語彙力と判断力を磨きます。
+- **検査N（数理）：** シンプルな四則演算をスピード勝負で解き、計算力を強化します。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 使い方
+1. ホーム画面から鍛えたい検査（S・V・N）を選びます。
+2. スタートボタンを押すと60秒のカウントダウンが始まります。
+3. 制限時間内にできるだけ多くの問題に答えてください。
+4. 終了後、スコアが表示されます。自己ベスト更新を目指しましょう！
 
-## React Compiler
+## 記録について
+- 各検査の最高スコアは、このブラウザ内に自動的に保存されます。
+- 日々のスコア推移はホーム画面のグラフで確認できます。毎日継続して、脳をアクティブに保ちましょう！
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ライセンス
 
-## Expanding the ESLint configuration
+MIT license
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+🤖 Built with [Claude.ai](https://claude.ai/)
