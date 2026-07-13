@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 // base をリポジトリ名に合わせる。独自ドメインやローカルのみなら "/" でOK。
 export default defineConfig({
   plugins: [react()],
-  base: "/svn-dojo/",
+  base: "https://sgtao.github.io/svn-dojo-app/",
 });
